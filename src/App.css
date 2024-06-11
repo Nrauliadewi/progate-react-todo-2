@@ -1,0 +1,48 @@
+.tittle{
+    font-size: 60px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.todoCompo{
+    margin: auto;
+   padding: 20px;
+   width: 50%;
+}
+.todoItem{
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    background: #dad8d8;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+
+}
+.todoItem:hover{
+    box-shadow:  20px 20px 9px #bebebe,
+             -20px -20px 9px #ffffff;
+}
+.todoItem > p{
+    font-size: 30px;
+}
+.todoItem > .done{
+    text-decoration: line-through;
+}
+.formTodo{
+    font-size: 20px;
+    padding: 15px 8px 15px 8px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 100%;
+}
+.btn-submit{
+    background-color: #dad8d8!important;
+    font-size: 20px;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
